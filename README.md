@@ -20,14 +20,16 @@
 - Bắt đầu ssl pinning bypass với momo:
 `objection -g com.mservice.momotransfer explore`
 `android sslpinning disable`
+
 **Lấy request**
 - Thay đổi Proxy Wifi của điện thoại:
 -- Tên máy chủ: IP máy tính
 -- Cổng: 8888
 - Cài đặt [Charles](https://maclife.vn/charles-web-proxy-cho-mac.html "Charles")
 - Kích hoạt bản quyền (name / key):
-TEAM MESMERiZE / FC91D362FB19D6E6CF
-mac / 0E03DBE6CF143C589C
-macos / F3637014AD798E7E66
-zzz / 3406585A7C044747BF
-zuishuai / 37356FB2CE3BC243AC
+
+TEAM MESMERiZE / FC91D362FB19D6E6CF ;
+mac / 0E03DBE6CF143C589C ;
+macos / F3637014AD798E7E66 ;
+zzz / 3406585A7C044747BF ;
+zuishuai / 37356FB2CE3BC243AC ;
