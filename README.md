@@ -1,3 +1,28 @@
+**Lấy request**
+- Cài đặt [Charles](https://maclife.vn/charles-web-proxy-cho-mac.html "Charles")
+- Kích hoạt bản quyền (name / key):
+
+TEAM MESMERiZE / FC91D362FB19D6E6CF ;
+mac / 0E03DBE6CF143C589C ;
+macos / F3637014AD798E7E66 ;
+zzz / 3406585A7C044747BF ;
+zuishuai / 37356FB2CE3BC243AC ;
+
+- Thay đổi Proxy Wifi của điện thoại:
+
+-- Tên máy chủ: IP máy tính
+
+-- Cổng: 8888
+
+- Install certificate:
+
+-- Tải về [charles-proxy-ssl-proxying-certificate](http://chls.pro/ssl "charles-proxy-ssl-proxying-certificate")
+
+-- Android: Mở Wifi -> Lưa chọn ưu tiên về mạng -> Cài đặt chứng chỉ
+
+- Charles -> Proxy -> Start SSL Proxying
+
+
 **Bypass**
 - Tải file [frida-server](https://github.com/frida/frida/releases "frida-server") tương ứng với điện thoại.
 - Giải nén và đổi tên thành frida-server.
@@ -22,27 +47,3 @@
 `objection -g com.mservice.momotransfer explore`
 
 `android sslpinning disable`
-
-**Lấy request**
-- Cài đặt [Charles](https://maclife.vn/charles-web-proxy-cho-mac.html "Charles")
-- Kích hoạt bản quyền (name / key):
-
-TEAM MESMERiZE / FC91D362FB19D6E6CF ;
-mac / 0E03DBE6CF143C589C ;
-macos / F3637014AD798E7E66 ;
-zzz / 3406585A7C044747BF ;
-zuishuai / 37356FB2CE3BC243AC ;
-
-- Thay đổi Proxy Wifi của điện thoại:
-
--- Tên máy chủ: IP máy tính
-
--- Cổng: 8888
-
-- Install certificate:
-
--- Tải về [charles-proxy-ssl-proxying-certificate](http://chls.pro/ssl "charles-proxy-ssl-proxying-certificate")
-
--- Android: Mở Wifi -> Lưa chọn ưu tiên về mạng -> Cài đặt chứng chỉ
-
-
